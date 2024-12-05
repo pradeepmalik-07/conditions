@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ce, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+       <!-- <h1>{% if age > 18 %}</h1> 
+          <h1>Eliigible for voting</h1>
+       <h1>{% else %}</h1>  
+           <h1>not the zage for voting</h1>
+
+        <h1>{% endif %}</h1> 
+
+        {% if age > 18 %}
+             <h1>{{name}} can give vote</h1>
+        {% endif %}     
+    
+       {% for var in name %}
+            <h1>{{var}}</h1>
+        {% endfor %}    
+
+    -->
+
+       {% if age < 18 %}
+            <h1>it is a child  marriage </h1>
+        {% elif age > 25 %}    
+             <h1>normal marriage</h1>
+        {% elif  age < 25 and age > 30 %}
+               <h1>legend marriage </h1>    
+        {% elif age > 40 %}       
+                  <h1>old marriage</h1>
+        {% else %}      
+                 <h1>bachlor for lifetime</h1>    
+        {% endif %}         
+
+
+
+    </center>
+</body>
+</html>
